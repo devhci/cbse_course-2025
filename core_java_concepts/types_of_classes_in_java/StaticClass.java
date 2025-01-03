@@ -1,4 +1,5 @@
-package types_of_classes_in_java;// Static Class
+package types_of_classes_in_java;
+// Static Class
 // Description: A class designed to hold static methods and variables.
 // Use Case: Used for utility or helper methods, such as mathematical calculations.
 

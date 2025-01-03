@@ -1,4 +1,4 @@
-
+package oopprinciples;
 // Demonstrating Object-Oriented Programming (OOP) principles in Java
 // This example shows encapsulation, constructors, and methods.
 
@@ -21,7 +21,7 @@ class Car {
 
 public class OOPPrinciples {
     public static void main(String[] args) {
-        // Creating an object of the Car class and calling its method
+        // Creating an object of the oopprinciples.Car class and calling its method
         Car car1 = new Car("Toyota", 2020);
         car1.displayDetails();
     }

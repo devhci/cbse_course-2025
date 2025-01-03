@@ -26,5 +26,6 @@ public class OuterClass {
         OuterClass outer = new OuterClass();
         InnerClass inner = outer.new InnerClass();
         inner.display();
+
     }
 }

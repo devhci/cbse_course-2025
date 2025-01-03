@@ -1,4 +1,4 @@
-
+package Inheritance;
 // Demonstrating Inheritance in Java
 // This program shows how a subclass inherits methods from a superclass.
 
@@ -10,7 +10,7 @@ class Animal {
 }
 
 class Dog extends Animal {
-    // Method specific to the Dog class
+    // Method specific to the Inheritance.Dog class
     void bark() {
         System.out.println("The dog barks.");
     }
