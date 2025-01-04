@@ -1,0 +1,27 @@
+<!--
+    This is the POM (Project Object Model) file for the 'calculator-core' module of the 'multi-module-calculator' project.
+    It defines the core domain logic of the calculator application.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Model version for the POM file -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Parent project information -->
+    <parent>
+        <groupId>com.example</groupId>
+        <artifactId>multi-module-calculator</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath> <!-- Relative path to the parent POM file -->
+    </parent>
+
+    <!-- Artifact ID for this module -->
+    <artifactId>calculator-core</artifactId>
+
+    <!-- Dependencies for this module -->
+    <dependencies>
+        <!-- No dependencies, as this is the core domain logic -->
+    </dependencies>
+</project>
