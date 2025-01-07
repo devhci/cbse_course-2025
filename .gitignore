@@ -1,2 +1,13 @@
 .idea
 my-first-mavenapp/target
+
+# Ignore target directories
+**/target/
+# Ignore other common files and directories
+*.log
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
