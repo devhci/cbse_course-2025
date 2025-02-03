@@ -14,7 +14,9 @@ public class Main {
 
         // Iterate through available providers and process payment
         for (PaymentProcessor processor : loader) {
+            System.out.println("Processing payment with: " + processor.getClass().getName());
             processor.processPayment("123456789", 250.75);
+            System.out.println("Payment processed successfully.");
         }
     }
 }
