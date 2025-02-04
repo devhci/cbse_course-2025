@@ -1,0 +1,13 @@
+package dk.sdu.sdu.springbootmvc.demo.repository;
+
+import dk.sdu.sdu.springbootmvc.demo.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+/**
+ * Repository interface for User entity.
+ * Extends JpaRepository to provide CRUD operations.
+ */
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+}
